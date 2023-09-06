@@ -3,3 +3,7 @@
     align-items: flex-start;
     font-family: "Avenir Next";
 }
+
+.element{
+    display: block;
+}

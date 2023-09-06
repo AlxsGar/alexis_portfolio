@@ -15,10 +15,10 @@ function App() {
         <Navigation />
         <Routes>
           <Route path="/" exact element={<Home />} />
-          <Route path="/alxis_portfolio/portfolio" element={<Portfolio />} />
-          <Route path="/hobbies" element={<Hobbies />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact/>}/>
+          <Route path="/portfolio" exact element={<Portfolio />} />
+          <Route path="/hobbies" exact element={<Hobbies />} />
+          <Route path="/about" exact element={<About />} />
+          <Route path="/contact" exact element={<Contact/>}/>
         </Routes>
       </div>
     </Router>
