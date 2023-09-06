@@ -1,0 +1,154 @@
+.division {
+  display: flex;
+  margin: auto;
+}
+
+.contactForm,
+.networks {
+  flex: 1 1 0;
+}
+
+.contactForm {
+  background-color: rgb(45, 45, 48);
+  border-radius: 10px;
+  box-shadow: 1px 5px 5px black;
+  position: relative;
+  animation: inquire 1s linear 0s normal none running;
+}
+
+.section {
+  margin: 1.5rem 3rem;
+}
+
+.section:nth-child(-n + 3) {
+  text-align: left;
+}
+
+.section label,
+.section input,
+.section textarea {
+  display: block;
+}
+
+.section textarea {
+  resize: none;
+}
+
+.section input,
+.section textarea {
+  color: white;
+  background-color: rgb(55, 65, 81);
+  border: 0.5px solid rgba(177, 177, 177, 0.323);
+  border-radius: 5px;
+}
+
+::placeholder {
+  color: rgb(155, 155, 155);
+  font-family: "Avenir Next";
+}
+
+.section input {
+  width: 100%;
+  height: 25px;
+}
+
+.section textarea {
+  width: 100%;
+  height: 150px;
+}
+
+.section label {
+  color: yellow;
+  font-weight: 600;
+}
+
+.section button {
+  background-color: rgb(86, 145, 240);
+  border: 0.5px solid rgba(177, 177, 177, 0.323);
+  color: white;
+  border-radius: 5px;
+  padding: 0.5rem;
+}
+
+.network{
+    margin: 2rem auto;
+    width: 75%;
+}
+
+.network a{
+  color: white;
+  text-decoration: none;
+}
+
+.icon{
+  float: left;
+  width: 25px;
+  height: 25px;
+}
+
+.icon img{
+  width: 100%;
+}
+
+.network h3, .network p{
+    margin: 0;
+    text-align: left;
+}
+
+@keyframes inquire{
+  0% {opacity: 0; top: 50px;}
+  100% {opacity: 1; top: 0;}
+}
+
+@media only screen and (max-width: 850px) {
+  .division {
+    display: block;
+  }
+
+  .section input,
+  .section textarea {
+    width: 500px;
+  }
+
+  .section textarea {
+    width: 500px;
+    height: 200px;
+  }
+
+  .contactForm {
+    padding: 1rem 0;
+  }
+
+  .networks {
+    margin-top: 2rem;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .division {
+    display: block;
+  }
+
+  .section input,
+  .section textarea {
+    width: 100%;
+  }
+
+  .section textarea {
+    width: 100%;
+    height: 150px;
+  }
+
+  .contactForm {
+    padding: 1rem 0;
+  }
+
+  .network{
+    margin: 2rem auto;
+    width: 100%;
+}
+
+  .networks {
+    margin-top: 2rem;
+  }
+}

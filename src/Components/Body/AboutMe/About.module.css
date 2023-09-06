@@ -1,0 +1,39 @@
+.info{
+    padding: 0 5rem;
+}
+
+.info p{
+    text-align: center;
+    font-size: 150%;
+}
+
+span{
+    color: yellow;
+    font-weight: bold;
+}
+
+.imageAbout{
+    margin-top: 2rem;
+    animation: imageLoad 1s linear 0s normal none running;
+}
+
+.imageAbout img{
+    margin: auto;
+    width: 50%;
+    border-radius: 10px;
+}
+
+@keyframes imageLoad{
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+@media only screen and (max-width: 800px) {
+    .info{
+        padding: 0;
+    }
+
+    .info p{
+        text-align: center;
+    }
+}

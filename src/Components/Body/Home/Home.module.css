@@ -1,0 +1,29 @@
+.bodyText{
+    font-size: 150%;
+    max-width: 50rem;
+    margin: auto;
+}
+
+.bodyText p{
+    text-align: center;
+    margin-bottom: 3rem;
+    position: relative;
+    animation: comein-text 2s linear 0s normal none running;
+}
+
+.bodyText img{
+    width: 90%;
+    border-radius: 25px;
+    position: relative;
+    animation: comein-img 1s linear 0s normal none running;
+}
+
+@keyframes comein-img{
+    0% {opacity: 0; top: 10px;}
+    100% {opacity: 1; top: 0;}
+}
+
+@keyframes comein-text{
+    0% {opacity: 0; left: 100px;}
+    100% {opacity: 1; left: 0;}
+}

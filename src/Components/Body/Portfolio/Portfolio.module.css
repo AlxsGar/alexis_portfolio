@@ -1,0 +1,187 @@
+.division{
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+}
+
+.projects, .skills{
+    flex: 1 1 0;
+    padding: auto;
+}
+
+.project:nth-child(1){
+    animation: project-in 1s linear 0s normal both running;
+}
+
+.project:nth-child(2){
+    animation: project-in 1s linear 0.25s normal both running;
+}
+
+.project:nth-child(3){
+    animation: project-in 1s linear 0.75s normal both running;
+}
+
+.project:nth-child(4){
+    animation: project-in 1s linear 1.25s normal both running;
+}
+
+.project:nth-child(5){
+    animation: project-in 1s linear 1.75s normal both running;
+}
+
+.skill{
+    position: relative;
+}
+
+.skill:nth-child(1){
+    animation: skill-in 1.5s linear 0s normal both running;
+}
+
+.skill:nth-child(2){
+    animation: skill-in 1.5s linear 0.25s normal both running;
+}
+
+.skill:nth-child(3){
+    animation: skill-in 1.5s linear 0.75s normal both running;
+}
+
+.skill:nth-child(4){
+    animation: skill-in 1.5s linear 1.25s normal both running;
+}
+
+.skill:nth-child(5){
+    animation: skill-in 1.5s linear 1.75s normal both running;
+}
+
+.skill:nth-child(6){
+    animation: skill-in 1.5s linear 2.25s normal both running;
+}
+
+.skill:nth-child(7){
+    animation: skill-in 1.5s linear 2.75s normal both running;
+}
+
+.skill:nth-child(8){
+    animation: skill-in 1.5s linear 3.25s normal both running;
+}
+
+.skill:nth-child(9){
+    animation: skill-in 1.5s linear 3.75s normal both running;
+}
+
+.skill:nth-child(10){
+    animation: skill-in 1.5s linear 4.25s normal both running;
+}
+
+.project{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    position: relative;
+}
+
+.imageHolder{
+    width: 200px;
+    height: 100px;
+    margin-right: 1rem;
+}
+
+.info{
+    width: 50%;
+}
+
+.imageHolder img{
+    border-radius: 10px;
+    float: left;
+    margin-right: 1rem;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.division h3{
+    color: #FFEB00;
+}
+
+.project h3, .project p{
+    text-align: left;
+    margin: 0;
+}
+
+.skill{
+    margin-top: 3rem;
+    padding: 1rem 3rem;
+    justify-content: center;
+    background-color: rgb(128,128,128, 0.2);
+    box-shadow: 2px 2px 2px black;
+    border-radius: 10px;
+    opacity: 100%;
+}
+
+.skill h3, .skill p{
+    text-align: left;
+    margin: 0;
+}
+
+@keyframes project-in{
+    0% {opacity: 0; left: 50px;}
+    100% {opacity: 1; left: 0;}
+}
+
+@keyframes skill-in{
+    0% {opacity: 0; top: 50px;}
+    100% {opacity: 1; top: 0;}
+}
+
+@media only screen and (max-width: 1500px) {
+
+    .division{
+        display: block;
+        margin: auto;
+        justify-content: space-around;
+    }
+
+    .project{
+        display: block;
+        justify-content: center;
+        margin-top: 3rem;
+    }
+
+    .imageHolder{
+        width: 500px;
+        height: 200px;
+    }
+
+    .imageHolder img{
+        margin-right: 1rem;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .info{
+        display: block;
+        width: 100%;
+    }
+
+    .skill{
+        padding: 1rem;
+    }
+
+    .skills{
+        margin-top: 5rem;
+    }
+}
+
+@media only screen and (max-width: 580px){
+    .imageHolder{
+        width: 100%;
+    }
+
+    .imageHolder img{
+        margin-right: 1rem;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
