@@ -15,7 +15,7 @@ function App() {
         <Navigation />
         <Routes>
           <Route path="/" exact element={<Home />} />
-          <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/alxis_portfolio/portfolio" element={<Portfolio />} />
           <Route path="/hobbies" element={<Hobbies />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact/>}/>
