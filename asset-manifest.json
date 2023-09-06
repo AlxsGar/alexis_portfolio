@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/alxis_portfolio/static/css/main.238ae3c8.css",
-    "main.js": "/alxis_portfolio/static/js/main.c9d5e751.js",
+    "main.js": "/alxis_portfolio/static/js/main.bb2e5177.js",
     "static/js/787.1ed0c42c.chunk.js": "/alxis_portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/home_image.png": "/alxis_portfolio/static/media/home_image.ffef9df36b3124bd493b.png",
     "static/media/nature.png": "/alxis_portfolio/static/media/nature.58dc7f3fafba12e9cc9b.png",
@@ -21,11 +21,11 @@
     "static/media/email.png": "/alxis_portfolio/static/media/email.b1baa59fa533030533f2.png",
     "index.html": "/alxis_portfolio/index.html",
     "main.238ae3c8.css.map": "/alxis_portfolio/static/css/main.238ae3c8.css.map",
-    "main.c9d5e751.js.map": "/alxis_portfolio/static/js/main.c9d5e751.js.map",
+    "main.bb2e5177.js.map": "/alxis_portfolio/static/js/main.bb2e5177.js.map",
     "787.1ed0c42c.chunk.js.map": "/alxis_portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.238ae3c8.css",
-    "static/js/main.c9d5e751.js"
+    "static/js/main.bb2e5177.js"
   ]
 }
